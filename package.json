@@ -4,8 +4,8 @@
   "description": "Algorithm theory description",
   "main": "index.js",
   "scripts": {
-    "start": "mocha --recursive .",
-    "test": "mocha --recursive .",
+    "start": "mocha --recursive src",
+    "test": "mocha --recursive src",
     "test-watch": "mocha --recursive --watch src"
   },
   "repository": {
