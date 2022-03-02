@@ -4,7 +4,7 @@ const item = (key, label) => {
 const equals = (item1, item2) => {
   return item1.key === item2.key;
 };
-module.exports = [
+export default  [
   {
     input: [2,5,2,1,4],
     expect: [1,2,2,4,5],

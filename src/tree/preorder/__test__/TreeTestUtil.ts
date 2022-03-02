@@ -1,4 +1,4 @@
-const Tree = require("../../Tree");
+import Tree from "../../Tree";
 const TreeTestUtil = {
   name: "treeTestUtil",
   buildTestTreeData: function () {
@@ -18,4 +18,4 @@ const TreeTestUtil = {
     return [0, 1, 3, 4, 2, 5, 6];
   },
 };
-module.exports = TreeTestUtil;
+export default TreeTestUtil;

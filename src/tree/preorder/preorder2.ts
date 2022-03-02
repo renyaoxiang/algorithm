@@ -1,4 +1,4 @@
-module.exports = function preorder(root) {
+export default  function preorder(root) {
   const result = [];
   const actions = [];
   actions.unshift(root);

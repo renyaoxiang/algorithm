@@ -1,4 +1,4 @@
-module.exports = function (inputArray, target) {
+export default  function (inputArray, target) {
   let result = -1;
   const actions = [];
   let find = false;

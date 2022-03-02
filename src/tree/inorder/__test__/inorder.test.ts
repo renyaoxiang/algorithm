@@ -1,10 +1,10 @@
-const chai = require("chai");
-const assertArrays = require("chai-arrays");
-chai.use(assertArrays);
+import chai from "chai";
+import chaiArrays from "chai-arrays" 
+chai.use(chaiArrays);
 const expect = chai.expect;
-const TreeTestUtil = require("./TreeTestUtil");
-const inorder = require("../inorder");
-const inorder2 = require("../inorder2");
+import TreeTestUtil from "./TreeTestUtil";
+import inorder from "../inorder";
+import inorder2 from "../inorder2";
 describe("inorder", function () {
   it("inorder should true", function () {
     const treeData = TreeTestUtil.buildTestTreeData();

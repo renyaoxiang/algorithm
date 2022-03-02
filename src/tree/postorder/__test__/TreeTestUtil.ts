@@ -1,4 +1,4 @@
-const Tree = require("../../Tree");
+import Tree from "../../Tree";
 const TreeTestUtil = {
   name: "treeTestUtil",
   buildTestTreeData: function () {
@@ -14,8 +14,8 @@ const TreeTestUtil = {
     level1_node2.updateChildren(level2_node3, level2_node4);
     return root;
   },
-  getInorderTreeArray: function () {
-    return [3, 1, 4, 0, 5, 2, 6];
+  getPostorderTreeArray: function () {
+    return [3, 4, 1, 5, 6, 2, 0];
   },
 };
-module.exports = TreeTestUtil;
+export default TreeTestUtil;

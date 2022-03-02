@@ -1,8 +1,10 @@
-const chai = require("chai");
+import chai from "chai";
+import chaiArrays from "chai-arrays" 
+chai.use(chaiArrays);
 const expect = chai.expect;
-const TreeTestUtil = require("./TreeTestUtil");
-const preorder = require("../preorder");
-const preorder2 = require("../preorder2");
+import TreeTestUtil from "./TreeTestUtil";
+import preorder from "../preorder";
+import preorder2 from "../preorder2";
 describe("preorder", function () {
   it("preorder should true", function () {
     const treeData = TreeTestUtil.buildTestTreeData();

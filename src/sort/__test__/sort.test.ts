@@ -1,7 +1,9 @@
-const chai = require("chai");
+import chai from "chai";
+import chaiArrays from "chai-arrays" 
+chai.use(chaiArrays);
 const expect = chai.expect;
-const testData = require("./testData");
-const sort = require("../sort"); 
+import testData from "./testData";
+import sort from "../sort"; 
 describe("sort", function () {
   it("sort should true", function () {
     testData.forEach(it=>{

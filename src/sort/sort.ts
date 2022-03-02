@@ -1,4 +1,4 @@
-module.exports = function (input) {
+export default  function (input) {
   const actions = [];
   let finish = false;
   const result = [];

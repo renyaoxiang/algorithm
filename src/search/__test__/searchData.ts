@@ -3,4 +3,4 @@ const SearchData = {
   inputKey: 3,
   inputResult: 2,
 };
-module.exports = SearchData;
+export default SearchData;
