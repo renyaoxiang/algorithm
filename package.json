@@ -4,9 +4,9 @@
   "description": "Algorithm theory description",
   "main": "index.js",
   "scripts": {
-    "start": "mocha -r ts-node/register --recursive src/**/*.test.ts",
-    "test": "mocha -r ts-node/register --recursive src/**/*.test.ts",
-    "test-watch": "mocha -r ts-node/register --recursive --watch src/**/*.test.ts"
+    "start": "mocha -r ts-node/register --recursive src/**/__test__/*.ts",
+    "test": "mocha -r ts-node/register --recursive src/**/__test__/*.ts",
+    "test-watch": "mocha -r ts-node/register --recursive src/**/__test__/*.ts --watch"
   },
   "repository": {
     "type": "git",
